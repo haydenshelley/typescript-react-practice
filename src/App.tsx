@@ -1,4 +1,5 @@
 import Alert from "./components/Alert";
+import { Button } from "./components/Button";
 import ListGroup from "./components/ListGroup";
 
 function App() {
@@ -14,8 +15,9 @@ function App() {
         onSelectItem={handleSelectItem}
       />
       <Alert>
-        <h1>Hello World</h1>
+        <strong>Hello World</strong>
       </Alert>
+      <Button name="Hayden" />
     </div>
   );
 }
