@@ -13,7 +13,9 @@ function App() {
         heading="Cities"
         onSelectItem={handleSelectItem}
       />
-      <Alert>Hello World</Alert>
+      <Alert>
+        <h1>Hello World</h1>
+      </Alert>
     </div>
   );
 }
